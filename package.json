@@ -1,0 +1,21 @@
+{
+  "name": "git_release_mock_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "tsc && node dist/app.js",
+    "dev":"nodemon src/app.ts --watch src/*.*",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "https://github.com/Pidsamhai/GitRelease_MockServer",
+  "author": "mengxyz",
+  "license": "WTFPL",
+  "dependencies": {
+    "@types/express": "^4.17.4",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2",
+    "tslint": "^6.1.1",
+    "typescript": "^3.8.3"
+  }
+}
